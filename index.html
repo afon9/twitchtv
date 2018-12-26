@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Twitchtv JSON API</title>
+  
+  
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<div class="container-fluid">
+  <!------------Tabs------------->
+  <div class="row">
+      <div class="w3-bar w3-black">
+        <a href="https://www.twitch.tv/" target="_blank"><img class="w3-bar-item w3-button twitch-logo" src="http://res.cloudinary.com/dvgpmroew/image/upload/v1513329532/new-twitchtv-logo_yhmlo0.png" alt="ter"></a>
+        <button class="w3-bar-item w3-button tab-link w3-deep-purple" onclick="openTab(event,'All')">All</button>
+        <button class="w3-bar-item w3-button tab-link" onclick="openTab(event,'Online')">Online</button>
+        <button class="w3-bar-item w3-button tab-link" onclick="openTab(event,'Offline')">Offline</button>
+      </div>
+  </div>
+  <!------------List------------->
+  <div class="row listDiv">
+      <div id="All" class="w3-container w3-border strList text-center">
+        <h2>All Twitch Streamers</h2>
+        <div id="All-List">
+        </div>
+      </div>
+
+      <div id="Online" class="w3-container w3-border strList text-center" style="display:none">
+        <h2>Online Twitch Streamers</h2>
+        <div id="Online-List">
+        </div>
+      </div>
+
+      <div id="Offline" class="w3-container w3-border strList text-center" style="display:none">
+        <h2>Offline Twitch Streamers</h2>
+        <div id="Offline-List">
+        </div>
+      </div>
+  </div>
+  <!------------Footer------------->
+  <div class="row">
+    <div class="footer text-center">
+      <p>Coded by <a href="https://www.freecodecamp.org/afon9" target="_blank">Rufat Alimurzaev</a></p>
+    </div>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
